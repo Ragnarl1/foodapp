@@ -1,0 +1,82 @@
+
+.home, .items{
+    padding: 20px 45px;
+}
+.img-custom{
+    width: 120px;
+    height: 120px;
+   border : 1px solid rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+.img-custom > img{
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+.img-custom:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.05);
+    
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 50px;
+    z-index: 2;
+
+}
+.title{
+    max-width: 250px;
+    min-height: 100px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+ .title:hover{
+    transform: translateY(-5px);
+}
+/* CSS */
+/* CSS */
+.btn-1 {
+    position: relative; /* Set position to relative */
+    background-color: #28a745; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    padding-right: 10px; /* Default padding to ensure space for text */
+  }
+  
+  .btn-1 .btn-text {
+    display: inline-block; /* Allow for smooth transformation */
+    transition: transform 0.2s ease, padding-left 0.2s ease; /* Smooth transition for the text and padding */
+  }
+  
+  .btn-1:hover {
+    background-color: #ffc107; /* Change background color on hover */
+  }
+  
+  .btn-1:hover .btn-text {
+    transform: translateX(2px); /* Move text slightly to the right on hover */
+    padding-left: 2px; /* Add padding to the left to simulate movement */
+  }
+
+
+  /* product tab css */
+ .star{
+    background-color: #6b20e2;
+    color: #df2020;
+   
+  }
+  .image-container {
+    position: relative;
+    width: 100%; /* Adjust size as needed */
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  
+  
+  
